@@ -1,0 +1,641 @@
+/*
+ Name: Nefeli Koumpouli  
+    File: styles.css
+    Date Created: 2024-10-17
+    Date Updated: 2024-12-07
+    Purpose: MIS 7375 Extra credit...  Learning CSS.
+    Version: 2.0
+    */
+
+    body {
+      background-color: rgb(239, 226, 252);
+    }
+    
+    table, th, td, div, button {
+    
+      font-family: raleway;
+      color: rgb(20, 7, 30);
+      padding: 0px;
+     
+             
+    }
+    
+    table {
+      border-collapse: collapse;
+    }
+    
+    tr,td {
+      padding-bottom: 10px;
+      text-align: left;
+    }
+    
+    .required {
+      font-family: raleway;
+      color: red;
+      padding-bottom: 20px;
+      padding-top: 0px;
+      
+    }
+    
+    .h2 {
+      color: rgb(59, 15, 101);
+      position: sticky;
+      top: 0px;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 10px;
+      background-color:  rgb(239, 226, 252);
+      
+    }
+    
+    .newuser {
+      color: rgb(11, 30, 71);
+      top: 0;
+      font-size: 13px;
+      text-align: center;
+      margin-bottom: 80px;
+      margin-top: 25px;
+      background-color:  rgb(239, 226, 252);
+      font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    .button {
+      border: none;
+      text-decoration: underline;
+      background-color: rgb(253, 251, 255);
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: top;
+      color: rgb(225, 116, 116);
+      
+    }
+    
+    .button:hover,
+    .button1:hover {
+      font-weight: bold;
+      text-decoration: none;
+      color: rgb(59, 15, 101);
+      cursor: pointer;
+    
+    }
+    
+    .button:active,
+    .button1:active {
+      color: rgb(0, 0, 0);
+      opacity: 0.5;
+    }
+    
+    .button1 {
+      border: none;
+      text-decoration: underline;
+      background-color: rgb(255, 255, 255);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: top;
+      color: rgb(225, 116, 116);
+      text-align: right;
+      
+    }
+    
+    .form {
+      width: 60px;
+      margin-left: auto; 
+      margin-right: auto;
+        
+    }
+    
+    .header {
+      border-bottom: 1px solid #000000;
+      display: block;
+      background-color: #fffefe;
+    }
+    
+    .submit {
+      background-color: rgb(88, 201, 88);
+      border: none;
+      height: 25px;
+      width: 100px;
+      border-radius: 7px;
+      cursor: pointer;
+      margin-right: 100px;
+      font-weight: bold;
+      font-size: 15px;
+      color: rgb(39, 22, 48);
+      text-align: center;
+      margin-top: 20px;
+    
+    }
+    
+    .review {
+      background-color: rgb(255, 165, 0); 
+      border: none;
+      height: 25px;
+      width: 100px;
+      border-radius: 7px;
+      cursor: pointer;
+      margin-right: 100px;
+      font-weight: bold;
+      font-size: 15px;
+      color: rgb(39, 22, 48); 
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .review:hover {
+      background-color: rgb(239, 226, 252);
+      border-color: rgb(204, 153, 0); 
+      border: 3px solid; 
+      color: rgb(204, 153, 0); 
+      transition: 0.2s;
+      border-style: solid;
+    
+      border-radius: 7px;
+    }
+    
+    .review:active {
+      background-color: rgb(204, 153, 0); 
+      color: rgb(255, 255, 255); 
+      transition: 0.1s;
+    }
+    
+    .reset {
+      background-color: rgb(217, 78, 78);
+      border: none;
+      height: 25px;
+      width: 100px;
+      border-radius: 7px;
+      cursor: pointer;
+      margin-right: 100px;
+      font-weight: bold;
+      font-size: 15px;
+      color: rgb(39, 22, 48);
+      text-align: center;
+      margin-top: 20px;
+    
+    }
+    
+    .submit:hover {
+      background-color: rgb(239, 226, 252);
+      border-radius: 3px;
+      border-color: (46, 154, 46);
+      border: 3px;
+      border-style: solid;
+      color: rgb(46, 154, 46);
+      transition: 0.2s;
+      border-radius: 7px;
+    }
+    
+    .submit:active {
+      background-color: rgb(46, 154, 46);
+      color: rgb(247, 238, 255);
+      transition: 0.1s;
+      border-radius: 7px;
+      border-color: rgb(46, 154, 46);
+    }
+    
+    .reset:hover {
+      background-color: rgb(239, 226, 252);
+      border-radius: 3px;
+      border-color: rgb(217, 78, 78);
+      border: 3px;
+      border-style: solid;
+      color:rgb(217, 78, 78);
+      transition: 0.2s;
+      border-radius: 7px;
+    }
+    
+    .reset:active {
+      background-color: rgb(217, 78, 78);
+      color: rgb(247, 238, 255);
+      transition: 0.1s;
+      border-radius: 7px;
+      border-color: rgb(217, 78, 78);
+    
+    }
+    
+    .register {
+      font-size: 25px;
+      padding-bottom: 0%;
+      padding-top: 0px;
+     
+    
+    }
+    
+    .fieldset {
+      width: 60%;
+      text-align: center;
+      margin:auto;
+      padding-bottom: 200px; 
+      border-radius: 7px;
+      box-shadow: 5px 10px 5px rgb(130, 124, 124);
+    }
+    
+    .required {
+      font-size: 15px;
+      color: red;
+      text-align: center;
+    } 
+    
+    .check {
+      font-size: 10px;
+    }
+    
+    .scale,
+    .text1 {
+      text-align: center;  
+    }
+    
+    .boxx{
+      border:1px solid black;
+    
+    }     
+    
+    .time {
+      text-align: right;
+      text-align: bottom;
+    }
+    
+    .check,
+    .gender,
+    .vac,
+    .ins {
+      padding-bottom: 10px;
+    }
+    
+    .slider {
+      width: 80%;
+      height: 30px;
+      background: #470077;
+      cursor: pointer;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      border-radius: 5px; 
+      padding-left: 5px; 
+      
+    }
+    
+    .logo {
+      width: 100px; 
+      display: inline-block;
+      padding-right: 0px;
+    }
+    
+    .medical {
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      text-align: left;
+      margin-right: 0px;
+    
+      padding: none;
+    
+    }
+    
+    .divheader {
+      display: inline-block;
+      color: rgb(143, 57, 57);
+    }
+    
+    .tableheader {
+      display: grid;
+      grid-column: 10px 1fr 1fr;
+    }
+    
+    .footer {
+      border-bottom: 1px solid #000000;
+      display: block;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    
+    .foot {
+      width: 100%;
+      border: 1px solid;
+      border-bottom: 1px solid #000000;
+      display: block;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: #fffefe;
+    }
+    
+    .footer-right {
+      text-align: right;
+      position: absolute;
+      right: 0px;
+    
+    }
+    
+    .messageerror {
+      color: red(143, 57, 57);
+      font-size: 10px;
+      color: red;
+    }
+     
+    .footer-right .button {
+      margin-bottom: 10px; 
+    }
+
+
+    
+
+    .ecbutton {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+    }
+
+    .ecbutton:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+        /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+      border: none;
+
+    }
+
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+
+    /* Add padding to container elements */
+    .container {
+      padding: 16px;
+    }
+
+    /* The Modal (background) */
+    .modal2 {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(111, 98, 125);
+      padding-top: 50px;
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      width: 80%; 
+    }
+
+    /* Style the horizontal ruler */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #f44336;
+      cursor: pointer;
+    }
+
+    .cancelbtn:hover, .signupbtn:hover {
+      cursor: pointer;
+      opacity: 0.8;
+
+    }
+
+    .signupbtn {
+      padding: 14px 20px;
+      background-color: #2bbb41;
+      border: none;
+
+    }
+
+
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .ecbutton {
+      background-color: #7d0c83;
+      color: rgb(222, 207, 207);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.5;
+      
+    }
+
+    * {box-sizing: border-box}
+
+    .ecbtn {
+      background-color: #6e118e;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 25%;
+      opacity: 0.9;
+      text-align: center;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+
+    }
+
+    /* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  margin: 15% auto;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+}
+
+#progressContainer {
+  margin-bottom: 20px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  appearance: none;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 25%;
+  position: relative;
+  margin-left: 0px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 40%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  text-align: left; 
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #82248c;
+  color: white;
+}
+
+.demo1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
